@@ -8,6 +8,7 @@
 
 	if($stm->rowCount() > 0){
 		echo "Registro eliminado";
+		
 	}else{
 		echo "Ningun elemento eliminado";
 	}
