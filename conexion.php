@@ -3,11 +3,9 @@
    try{
    	$usuario = 'postgres';
    	$contrasenia = 'root';
-   	$pdo = new PDO('pgsql:dbname=postgresql_pdo;host=localhost;',$usuario,$contrasenia);	 
+   	$pdo = new PDO('pgsql:dbname=postgresql_pdo;host=localhost;',$usuario,$contrasenia);
    }catch(Exception $e){
    		print "Error: ".$e->getMessage() ."<br/>";
    		die();
    }
-
-
  ?>
